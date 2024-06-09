@@ -10,6 +10,7 @@ export default defineConfig({
     "storage/session": "src/storage/session.ts",
     factorio: "src/factorio.ts",
     reflect: "src/reflect.ts",
+    react: "src/react.ts",
   },
   outExtension({ format }) {
     return { js: format === "cjs" ? ".cjs" : ".js" };
