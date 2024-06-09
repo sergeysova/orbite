@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "",
   "scripts": {
-    "build": "tsup src/router.ts src/patronum.ts"
+    "build": "tsup"
   },
   "exports": {
     "./router": {
@@ -15,6 +15,26 @@
       "require": "./dist/patronum.cjs",
       "types": "./dist/patronum.d.ts",
       "import": "./dist/patronum.js"
+    },
+    "./storage": {
+      "require": "./dist/storage/index.cjs",
+      "types": "./dist/storage/index.d.ts",
+      "import": "./dist/storage/index.js"
+    },
+    "./storage/local": {
+      "require": "./dist/storage/local.cjs",
+      "types": "./dist/storage/local.d.ts",
+      "import": "./dist/storage/local.js"
+    },
+    "./storage/query": {
+      "require": "./dist/storage/query.cjs",
+      "types": "./dist/storage/query.d.ts",
+      "import": "./dist/storage/query.js"
+    },
+    "./storage/session": {
+      "require": "./dist/storage/session.cjs",
+      "types": "./dist/storage/session.d.ts",
+      "import": "./dist/storage/session.js"
     }
   },
   "files": [

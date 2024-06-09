@@ -18,7 +18,7 @@ A meta-package that groups the most useful npm packages into one, making develop
 - patronum ✅
 - atomic-router ✅
 - atomic-router-react ✅
-- effector-storage
+- effector-storage ✅ (local, query, session)
 - effector-factorio
 - @effector/reflect
 - @withease/i18next
