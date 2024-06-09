@@ -3,13 +3,18 @@
   "version": "0.1.2",
   "description": "",
   "scripts": {
-    "build": "tsup src/router.ts"
+    "build": "tsup src/router.ts src/patronum.ts"
   },
   "exports": {
     "./router": {
       "require": "./dist/router.cjs",
       "types": "./dist/router.d.ts",
       "import": "./dist/router.js"
+    },
+    "./patronum": {
+      "require": "./dist/patronum.cjs",
+      "types": "./dist/patronum.d.ts",
+      "import": "./dist/patronum.js"
     }
   },
   "files": [

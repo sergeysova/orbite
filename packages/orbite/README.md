@@ -15,7 +15,7 @@ A meta-package that groups the most useful npm packages into one, making develop
 
 ## Packages bundled into
 
-- patronum
+- patronum ✅
 - atomic-router ✅
 - atomic-router-react ✅
 - effector-storage
