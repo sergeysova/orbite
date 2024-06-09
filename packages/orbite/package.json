@@ -1,6 +1,6 @@
 {
   "name": "orbite",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "",
   "scripts": {
     "build": "tsup"
