@@ -35,6 +35,11 @@
       "require": "./dist/storage/session.cjs",
       "types": "./dist/storage/session.d.ts",
       "import": "./dist/storage/session.js"
+    },
+    "./factorio": {
+      "require": "./dist/factorio.cjs",
+      "types": "./dist/factorio.d.ts",
+      "import": "./dist/factorio.js"
     }
   },
   "files": [

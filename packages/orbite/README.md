@@ -19,7 +19,7 @@ A meta-package that groups the most useful npm packages into one, making develop
 - atomic-router ✅
 - atomic-router-react ✅
 - effector-storage ✅ (local, query, session)
-- effector-factorio
+- effector-factorio ✅
 - @effector/reflect
 - @withease/i18next
 - @withease/web-api

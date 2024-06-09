@@ -8,6 +8,7 @@ export default defineConfig({
     "storage/local": "src/storage/local.ts",
     "storage/query": "src/storage/query.ts",
     "storage/session": "src/storage/session.ts",
+    factorio: "src/factorio.ts",
   },
   outExtension({ format }) {
     return { js: format === "cjs" ? ".cjs" : ".js" };
