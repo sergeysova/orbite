@@ -1,10 +1,11 @@
 {
   "name": "orbite",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "",
   "scripts": {
     "build": "tsup"
   },
+  "repository": "https://github.com/sergeysova/orbite",
   "exports": {
     "./router": {
       "require": "./dist/router.cjs",
