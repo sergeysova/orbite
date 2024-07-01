@@ -19,14 +19,14 @@ A meta-package that groups the most useful npm packages into one, making develop
 | -------------------------- | ----------- | ------------------------ |
 | [patronum]                 | ✅          | `orbite/patronum`        |
 | [atomic-router]            | ✅          | `orbite/router`          |
-| [atomic-router-react]      | ✅          | `orbite/router`          |
+| [atomic-router-react]      | ✅          | `orbite/react`           |
 | [effector-react]           | ✅          | `orbite/react`           |
+| [effector-factorio]        | ✅          | `orbite/react`           |
+| [@effector/reflect]        | ✅          | `orbite/react`           |
 | [effector-storage]         | ✅          | `orbite/storage`         |
 | [effector-storage/local]   | ✅          | `orbite/storage/local`   |
 | [effector-storage/query]   | ✅          | `orbite/storage/query`   |
 | [effector-storage/session] | ✅          | `orbite/storage/session` |
-| [effector-factorio]        | ✅          | `orbite/factorio`        |
-| [@effector/reflect]        | ✅          | `orbite/reflect`         |
 | @withease/i18next          |             |                          |
 | @withease/web-api          |             |                          |
 | @farfetched/core           |             |                          |

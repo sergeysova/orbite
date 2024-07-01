@@ -36,16 +36,6 @@
       "types": "./dist/storage/session.d.ts",
       "import": "./dist/storage/session.js"
     },
-    "./factorio": {
-      "require": "./dist/factorio.cjs",
-      "types": "./dist/factorio.d.ts",
-      "import": "./dist/factorio.js"
-    },
-    "./reflect": {
-      "require": "./dist/reflect.cjs",
-      "types": "./dist/reflect.d.ts",
-      "import": "./dist/reflect.js"
-    },
     "./react": {
       "require": "./dist/react.cjs",
       "types": "./dist/react.d.ts",
